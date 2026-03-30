@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-         <div className='container mx-auto flex justify-between mt-21'>
+         <div className='container mx-auto flex justify-between mt-21 mb-21'>
             <div className=' flex flex-col justify-center'>
                <div className="badge badge-soft badge-primary flex gap-2 rounded-full">
                 <div class="w-3 h-3 bg-blue-500 rounded-full mr-2"></div>
