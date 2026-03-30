@@ -1,12 +1,15 @@
 
 import './App.css'
+import Banner from './components/banner/banner'
+import Navbar from './components/navbar'
 
 function App() {
   
 
   return (
     <>
-    <h1 className='font-bold'>i love you </h1>
+    <Navbar></Navbar>
+    <Banner></Banner>
     </>
   )
 }
