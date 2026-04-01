@@ -12,7 +12,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "pen-tool"
+    "icon": "PenTool"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "palette"
+    "icon": "Palette"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Commercial use",
       "No attribution required"
     ],
-    "icon": "image"
+    "icon": "Image"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "Integration support",
       "Cloud sync"
     ],
-    "icon": "settings"
+    "icon": "Settings"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "Modern templates",
       "Export to PDF"
     ],
-    "icon": "file-text"
+    "icon": "FileText"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Caption generator",
       "Hashtag suggestions"
     ],
-    "icon": "share-2"
+    "icon": "Share2"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Figma compatible",
       "Responsive layouts"
     ],
-    "icon": "layout"
+    "icon": "Layout"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
       "On-page optimization",
       "SEO analytics"
     ],
-    "icon": "trending-up"
+    "icon": "TrendingUp"
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@
       "Campaign analytics",
       "Automation workflows"
     ],
-    "icon": "mail"
+    "icon": "Mail"
   },
   {
     "id": 10,
@@ -147,6 +147,6 @@
       "Preset effects",
       "HD export support"
     ],
-    "icon": "video"
+    "icon": "Video"
   }
 ]
