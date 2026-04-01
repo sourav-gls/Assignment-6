@@ -10,8 +10,8 @@ const Tab = ({setActiveTab , activeTab , carts}) => {
            </div>
            
 <div className="tabs tabs-box bg-white border-none shadow-none justify-center">
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" defaultChecked onClick={()=>setActiveTab("products")} />
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={cartTab} onClick={()=>setActiveTab("cart")} />
+  <input type="radio" name="my_tabs_1" className= {`tab rounded-full w-40 ${activeTab==="products" ? " bg-gradient-to-r from-[#536DFE] to-[#7E57C2] text-white font-semibold" : null }`} aria-label="Products" defaultChecked onClick={()=>setActiveTab("products")} />
+  <input type="radio" name="my_tabs_1" className={`tab rounded-full w-40 ${activeTab==="cart" ? " bg-gradient-to-r from-[#536DFE] to-[#7E57C2] text-white font-semibold" : null }`} aria-label={cartTab} onClick={()=>setActiveTab("cart")} />
   
 </div>
 </div>
