@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "AI Writing Pro",
-    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "description": "Generate high-quality content, blogs, and marketing in seconds with advanced AI.",
     "price": 29,
     "period": "monthly",
     "tag": "Best Seller",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "name": "Design Templates Pack",
-    "description": "3000+ premium templates for social media, presentations, and marketing materials.",
+    "description": "3000+ premium templates for social media, presentations, and  materials.",
     "price": 49,
     "period": "one-time",
     "tag": "Popular",
