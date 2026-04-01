@@ -7,8 +7,8 @@ const Pricing = () => {
             <h1 className='text-[48px] font-semibold'>Simple, Transparent Pricing</h1>
             <p className='text-gray-400'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-        <div className='grid grid-cols-3'>
-            <div className="card w-96 bg-base-200 shadow-sm rounded-2xl">
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 '>
+            <div className="card w-96 bg-base-200 shadow-sm rounded-2xl border border-gray-200">
   <div className="card-body">
     <div className="">
       <h2 className="text-2xl font-semibold">Starter</h2>
@@ -80,7 +80,7 @@ const Pricing = () => {
     </div>
   </div>
 </div>
-            <div className="card w-96 bg-base-200 rounded-2xl shadow-sm">
+            <div className="card w-96 bg-base-200 rounded-2xl shadow-sm border border-gray-200">
   <div className="card-body">
     <div className="">
       <h2 className="text-2xl font-semibold">Enterprise</h2>

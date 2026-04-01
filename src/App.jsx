@@ -31,7 +31,7 @@ console.log(carts)
 
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar carts={carts}></Navbar>
     <Banner></Banner>
     <Count></Count>
     <Tab setActiveTab={setActiveTab} activeTab={activeTab} carts={carts} setCarts={setCarts} ></Tab>

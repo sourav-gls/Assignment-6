@@ -8,7 +8,7 @@ const GetStarted = () => {
             <h1 className='text-[48px] font-semibold'>Get Started in 3 Steps</h1>
             <p className='text-gray-400'>Start using premium digital tools in minutes, not hours.</p>
             </div>
-            <div className='grid grid-cols-3 justify-around'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 justify-around'>
                 <div>
                  <div className="card bg-base-100 w-90 pt-8 pb-8 shadow-sm rounded-lg">
        <div className='bg-purple-100 rounded-full flex items-center justify-center w-30 h-30 ml-30'>
