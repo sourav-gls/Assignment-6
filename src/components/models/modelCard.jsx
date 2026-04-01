@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import * as Icons from "lucide-react";
+import { toast } from 'react-toastify';
 
 const ModelCard = ({model ,carts ,setCarts}) => {
 
@@ -9,6 +10,7 @@ const ModelCard = ({model ,carts ,setCarts}) => {
     const handleBuy =() =>{
         setIsBuy(true)
         setCarts([...carts, model])
+        toast(`${model.name} is added in cart`)
     }
     
     

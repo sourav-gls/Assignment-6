@@ -7,7 +7,8 @@ const Cart = ({carts , setCarts}) => {
 const totalPrice = carts.reduce((sum,item) => sum + item.price , 0)
 const handleProcess = () => {
     setCarts([ ])
-    toast("successfull !!")
+    {carts.length === 0? toast("Opps ! Your cart is EMPTY") : toast("Payment successfull ! Thank You ...")}
+    
 }
 
 const handleDelete = (cart) =>{
