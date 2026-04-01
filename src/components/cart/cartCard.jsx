@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Icons from "lucide-react";
 
-const CartCard = ({cart}) => {
+const CartCard = ({cart , handleDelete}) => {
 
 const Icon = Icons[cart.icon];
 
@@ -14,7 +14,7 @@ const Icon = Icons[cart.icon];
                 <h4>${cart.price}</h4>
             </div>
         </div>
-        <button className='text-red-400 font-semibold'>Remove</button>
+        <button className='text-red-400 font-semibold' onClick={()=>handleDelete(cart)}>Remove</button>
         </div>
     );
 };

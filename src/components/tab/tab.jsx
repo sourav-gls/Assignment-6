@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Tab = ({setActiveTab , activeTab}) => {
+const Tab = ({setActiveTab , activeTab , carts}) => {
+    const cartTab = carts.length === 0 ? "Cart" : `Cart(${carts.length})`
     return (
         <div className='container mx-auto mt-20 mb-20'>
            <div className='text-center space-y-2 mb-5'>
@@ -10,7 +11,7 @@ const Tab = ({setActiveTab , activeTab}) => {
            
 <div className="tabs tabs-box bg-white border-none shadow-none justify-center">
   <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" defaultChecked onClick={()=>setActiveTab("products")} />
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Cart" onClick={()=>setActiveTab("cart")} />
+  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={cartTab} onClick={()=>setActiveTab("cart")} />
   
 </div>
 </div>

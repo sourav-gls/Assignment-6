@@ -34,10 +34,10 @@ console.log(carts)
     <Navbar></Navbar>
     <Banner></Banner>
     <Count></Count>
-    <Tab setActiveTab={setActiveTab} activeTab={activeTab} ></Tab>
+    <Tab setActiveTab={setActiveTab} activeTab={activeTab} carts={carts} setCarts={setCarts} ></Tab>
 
     {activeTab==="products" && <Models modelPromise={modelPromise} setCarts={setCarts} carts={carts}></Models> }
-    {activeTab==="cart" &&  <Cart carts={carts}></Cart>}
+    {activeTab==="cart" &&  <Cart carts={carts} setCarts={setCarts}></Cart>}
     
     
     <GetStarted></GetStarted>
