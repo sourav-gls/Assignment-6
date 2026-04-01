@@ -10,6 +10,7 @@ import Navbar from './components/navbar'
 import Pricing from './components/pricing/pricing'
 import Cart from './components/cart/cart'
 import Tab from './components/tab/tab'
+import { ToastContainer } from 'react-toastify'
 
 
 
@@ -43,6 +44,7 @@ console.log(carts)
     <GetStarted></GetStarted>
     <Pricing></Pricing>
     <Footer></Footer>
+    <ToastContainer/>
     </>
   )
 }

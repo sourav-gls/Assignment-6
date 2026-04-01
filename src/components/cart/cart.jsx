@@ -1,11 +1,13 @@
 import React from 'react';
 import CartCard from './cartCard';
+import { toast } from 'react-toastify';
 
 const Cart = ({carts , setCarts}) => {
 
 const totalPrice = carts.reduce((sum,item) => sum + item.price , 0)
 const handleProcess = () => {
     setCarts([ ])
+    toast("successfull !!")
 }
 
 const handleDelete = (cart) =>{
